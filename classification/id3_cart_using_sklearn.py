@@ -51,7 +51,7 @@ dataset["V10"].replace(to_replace=['negative'], value=0, inplace=True)
 success=dataset[dataset['V10']==1].shape[0]
 # number of losses
 loss=dataset[dataset['V10']==0].shape[0]
-print("total number of patients: {} ".format(n))
+print("total number of observations: {} ".format(n))
 print("number of features: {}".format(n_features))
 print("number of wins: {}".format(success))
 print("number of loss: {}".format(loss))
