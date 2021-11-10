@@ -8,6 +8,9 @@
   - Classification
     - ID3 (hard code)
     - ID3 (using scikit-learn)
+    - knn(hardcode)
+    - knn(using scikit)
+    - naive bayes(hardcode) 
   - Regression
     - linear regression (using scikit-learn)
   - Concept learning
